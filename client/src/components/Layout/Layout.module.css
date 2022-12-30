@@ -1,0 +1,20 @@
+.section_container {
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .section_container {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section_container {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}

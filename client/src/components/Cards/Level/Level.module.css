@@ -1,0 +1,199 @@
+.card_top {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 21px;
+  padding-top: 21px;
+  padding-right: 21px;
+  margin-bottom: 41px;
+  transition: 1s;
+}
+
+.challenge_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: auto;
+  width: 100%;
+  padding-left: 21px;
+  padding-top: 21px;
+  padding-right: 21px;
+  margin-bottom: 25px;
+  
+}
+
+.challenge_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.challenge_topEdit {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 21px;
+  padding-top: 21px;
+  padding-right: 21px;
+  margin-bottom: 25px;
+  transition: 1s;
+}
+.card_top_edit {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 21px;
+  padding-top: 21px;
+  padding-right: 21px;
+  margin-bottom: 71px;
+  width: 100%;
+}
+
+.cardType{
+  color: #B9C3C8;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  transition: 1s;
+}
+
+.card_row {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.card_button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  max-width: 19px;
+  max-height: 18px;
+  cursor: pointer;
+}
+
+.card_circle_blue {
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  border-radius: 50%;
+  background-color: #00d7ff;
+  margin-right: 7px;
+  transition: 1s;
+}
+.card_circle_green {
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  border-radius: 50%;
+  background-color: #24d40c;
+  margin-right: 7px;
+  transition: 1s;
+}
+.card_circle_red {
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  border-radius: 50%;
+  background-color: #db0837;
+  margin-right: 7px;
+  transition: 1s;
+}
+
+.card_text_edit {
+  margin: 0;
+  margin-right: 7px;
+  font-size: 16px;
+ 
+}
+.card_text {
+  margin: 0;
+  margin-right: 7px;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #b9c3c8;
+}
+
+.star_icon {
+  width: 19px;
+  height: 18px;
+  fill: #00d7ff;
+  transition: 1s;
+}
+
+.arrow_icon {
+  width: 8px;
+  height: 4px;
+  fill: #00d7ff;
+}
+
+.pointer_off {
+  cursor: auto;
+}
+
+.shadow_star:focus{
+  filter: drop-shadow(0px 3px 4px rgba(0, 215, 255, 0.25));
+}
+.shadow_star:hover{
+  filter: drop-shadow(0px 3px 4px rgba(0, 215, 255, 0.25));
+}
+
+.star_off{
+  fill: #B9C3C8;
+}
+
+@media screen and (min-width: 768px){
+  .card_top {
+    padding-right: 21px;
+    margin-bottom: 20px;
+    transition: 1s;
+  }
+  .card_top_edit {
+    padding-right: 21px;
+    margin-bottom: 42px;
+    transition: 1s;
+  }
+  .card_circle_blue {
+    width: 8px;
+    height: 8px;
+  }
+  .card_circle_green {
+    width: 8px;
+    height: 8px;
+  }
+  .card_circle_red {
+    width: 8px;
+    height: 8px;
+  }
+
+  .card_text_edit {
+    font-size: 14px;
+  }
+  .card_text {
+    font-size: 14px;
+  }
+
+  .star_icon {
+    width: 15px;
+    height: 14px;
+  }
+
+  .challenge_topEdit {
+    padding-top: 19px;
+    margin-bottom: 20px;
+  }
+
+  .challenge_top {
+    padding-top: 19px;
+    margin-bottom: 20px;
+    transition: 1s;
+  }
+
+  .cardType{
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    transition: 1s;
+  }
+}

@@ -1,0 +1,504 @@
+/*----------------------MOBILE VERTICAL------------------------- */
+
+.container {
+  max-width: 320px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrap {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.info {
+  max-width: 281px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.landingHeader {
+  display: flex;
+  padding-bottom: 60px;
+  font-size: 24px;
+  margin: 0px;
+  color: var(--color-details);
+}
+
+.landingParagraph {
+  text-align: left;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #15395A;
+}
+
+.landingParagraphForm {
+  font-size: 14px;
+  margin: 0px;
+  padding-bottom: 30px;
+  color: var(--color-landingInfo);
+}
+
+.landingFormContainer {
+  text-align: left;
+  
+}
+
+.landingFormInput {
+  width: 100%;
+  margin-bottom: 20px;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  border-color: var(--color-details);
+  caret-color: var(--color-details);
+  outline: none;
+}
+
+.landingFormInput::placeholder {
+  color: var(--color-details);
+}
+
+.landingFormButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 24px;
+  color: white;
+  background-color: var(--color-button);
+  box-shadow: 0 0px 5px 0px var(--color-button);
+  border: none;
+  box-shadow: 0 0px 5px 0px var(--color-button);}
+
+.landingBgImage1 {
+  position: absolute;
+  right: 20px;
+  bottom: -490px;
+}
+
+.landingBgImage2 {
+  position: absolute;
+  right: -48px;
+  bottom: -290px;
+}
+
+/*----------------------MOBILE VERTICAL------------------------- */
+
+@media screen and (min-width: 650px) and (max-width: 767px) {
+
+  .wrap {
+    height: auto;
+  }
+
+  .landingFormButton{
+    margin-bottom: 181px;
+  }
+}
+
+
+/*----------------------TABLET VERTICAL------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 819px) {
+ .wrap {
+    height: auto;
+  }
+
+  .container {
+    max-width: 375px;
+    padding: 0;
+    margin-left: 50px;
+  }
+
+  .landingHeader {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+
+  .landingParagraph {
+    line-height: 33px;
+    font-size: 24px;
+  }
+
+  .landingParagraphForm {
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+
+  .info {
+    max-width: 375px;
+    padding-top: 312px;
+    padding-bottom: 25px;
+  }
+
+  .landingFormContainer {
+    margin-bottom: 351px;
+  }
+
+  .landingFormInput {
+    width: 193px;
+  }
+
+  .landingFormButton {
+    margin-left: 141px;
+  }
+
+  .landingBgImage1 {
+    top: 0;
+    right: 0;
+  }
+
+  .landingBgImage2 {
+    bottom: 0;
+    right: 0;
+  }
+}
+/*----------------------TABLET VERTICAL2------------------------- */
+
+@media screen and (min-width: 820px){
+  .wrap {
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 375px;
+    padding: 0;
+    margin-left: 50px;
+  }
+
+  .landingHeader {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+
+  .landingParagraph {
+    line-height: 33px;
+    font-size: 24px;
+  }
+
+  .landingParagraphForm {
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+
+  .info {
+    max-width: 375px;
+    padding-top: 312px;
+    padding-bottom: 25px;
+  }
+
+  .landingFormContainer {
+    margin-bottom: 351px;
+  }
+
+  .landingFormInput {
+    width: 193px;
+  }
+
+  .landingFormButton {
+    margin-left: 141px;
+  }
+
+  .landingBgImage1 {
+    top: 0;
+    right: 0;
+  }
+
+  .landingBgImage2 {
+    bottom: 0;
+    right: 0;
+  }
+}
+@media screen and (min-width: 821px) and (max-width: 911px) {
+ .wrap {
+    height: auto;
+  }
+
+  .container {
+    max-width: 375px;
+    padding: 0;
+    margin-left: 50px;
+  }
+
+  .landingHeader {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+
+  .landingParagraph {
+    line-height: 33px;
+    font-size: 24px;
+  }
+
+  .landingParagraphForm {
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+
+  .info {
+    max-width: 375px;
+    padding-top: 312px;
+    padding-bottom: 25px;
+  }
+
+  .landingFormContainer {
+    margin-bottom: 351px;
+  }
+
+  .landingFormInput {
+    width: 193px;
+  }
+
+  .landingFormButton {
+    margin-left: 141px;
+  }
+
+  .landingBgImage1 {
+    top: 0;
+    right: 0;
+  }
+
+  .landingBgImage2 {
+    bottom: 0;
+    right: 0;
+  }
+}
+
+
+
+@media screen and (min-width: 912px) and (max-width: 913px){
+
+  .wrap {
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 375px;
+    padding: 0;
+    margin-left: 50px;
+  }
+
+  .landingHeader {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+
+  .landingParagraph {
+    line-height: 33px;
+    font-size: 24px;
+  }
+
+  .landingParagraphForm {
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+
+  .info {
+    max-width: 375px;
+    padding-top: 312px;
+    padding-bottom: 25px;
+  }
+
+  .landingFormContainer {
+    margin-bottom: 351px;
+  }
+
+  .landingFormInput {
+    width: 193px;
+  }
+
+  .landingFormButton {
+    margin-left: 141px;
+  }
+
+  .landingBgImage1 {
+    top: 0;
+    right: 0;
+  }
+
+  .landingBgImage2 {
+    bottom: 0;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 914px) and (max-width: 1019px){
+  .wrap {
+    height: auto;
+  }
+
+  .container {
+    max-width: 375px;
+    padding: 0;
+    margin-left: 50px;
+  }
+
+  .landingHeader {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+
+  .landingParagraph {
+    line-height: 33px;
+    font-size: 24px;
+  }
+
+  .landingParagraphForm {
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+
+  .info {
+    max-width: 375px;
+    padding-top: 312px;
+    padding-bottom: 25px;
+  }
+
+  .landingFormContainer {
+    margin-bottom: 351px;
+  }
+
+  .landingFormInput {
+    width: 193px;
+  }
+
+  .landingFormButton {
+    margin-left: 141px;
+  }
+
+  .landingBgImage1 {
+    top: 0;
+    right: 0;
+  }
+
+  .landingBgImage2 {
+    bottom: 0;
+    right: 0;
+  }
+}
+
+/*----------------------TABLET HORIZONTAL------------------------- */
+
+@media screen and (min-width: 1020px) and (max-width: 1999px) {
+.wrap {
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 515px;
+    margin-left: 99px;
+    padding: 0;
+  }
+
+  .info {
+    max-width: 515px;
+  }
+
+  .landingHeader {
+    padding-bottom: 50px;
+  }
+
+  .landingParagraph {
+    line-height: 45px;
+    font-size: 33px;
+    max-width: 515px;
+  }
+
+  .landingParagraphForm {
+    font-size: 24px;
+    padding-bottom: 36px;
+  }
+
+  .info {
+    padding-top: 161px;
+    padding-bottom: 25px;
+  }
+
+  .landingFormContainer {
+    margin-bottom: 201px;
+  }
+
+  .landingFormInput {
+    display: block;
+    width: 193px;
+  }
+
+  .landingFormButton {
+    margin-left: 141px;
+  }
+
+  .landingBgImage1 {
+    top: 0;
+    right: 0;
+  }
+
+  .landingBgImage2 {
+    bottom: 0;
+    right: 0;
+  }
+}
+
+
+
+/*----------------------DESKTOP------------------------- */
+
+@media screen and (min-width: 1200px) {
+.wrap {
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 562px;
+    margin-left: 229px;
+  }
+
+  .info {
+    padding-top: 193px;
+    padding-bottom: 35px;
+    max-width: 562px;
+  }
+
+  .landingHeader {
+    padding-bottom: 70px;
+  }
+
+  .landingParagraph {
+    max-width: 100%;
+
+    font-size: 36px;
+  }
+
+  .landingParagraphForm {
+    font-size: 24px;
+    padding-bottom: 23px;
+  }
+
+  .landingFormInput {
+    display: block;
+    width: 196px;
+  }
+
+  .landingFormButton {
+    margin-left: 144px;
+  }
+
+  .landingBgImage1 {
+    right: 0;
+    bottom: auto;
+  }
+
+  .landingBgImage2 {
+    right: 0;
+    bottom:0;
+}
+}

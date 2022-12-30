@@ -1,0 +1,210 @@
+.continueWrap {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.completeInfo {
+  margin-right: 3px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.completeInfo_challange {
+  margin-right: 3px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.award {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.platform {
+  width: 100px;
+}
+
+
+.platform_challange {
+  width: 110px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50px;
+}
+
+.dart {
+  position: absolute;
+  right: 300px;
+  animation-name: dartAnimation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+.clouds {
+  position: absolute;
+  top: -5px;
+  width: 170px;
+}
+
+.clouds_challange {
+  position: absolute;
+  top: -68px;
+  width: 170px;
+}
+
+.button {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 3px;
+  color: #b9c3c8;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button_challange {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 3px;
+  color: #b9c3c8;
+  background-color: #15395a;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow {
+  margin-left: 7px;
+  width: 11px;
+  height: 11px;
+}
+
+.questName {
+  color: #00d7ff;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #00d7ff;
+  padding-top: 4px;
+  line-height: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 93px;
+  display: inline-block;
+}
+
+.complete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.trophy {
+  width: 110px;
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(15deg);
+  top: -20px;
+}
+
+@keyframes dartAnimation {
+  0% {
+    right: -300px;
+    top: -80px;
+  }
+  100% {
+    right: 2px;
+    top: 6px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .completeInfo_challange {
+    margin-right: 5px;
+    font-size: 12px;
+    line-height: 11px;
+  }
+
+  .questName {
+    margin-top: 3px;
+    max-width: 85px;
+    font-size: 12px;
+  }
+
+  .trophy {
+    top: -10px;
+    width: 85px;
+  }
+
+  .clouds{
+    width: 144px;
+  }
+
+  .clouds_challange {
+    top: -48px;
+    width: 130px;
+  }
+
+  .platform {
+    top: 0;
+    width: 90px;
+  }
+
+  .platform_challange {
+    width: 80px;
+    top: 42px;
+  }
+
+  .continueWrap {
+    bottom: 0;
+  }
+
+  .button{
+    font-size: 13px;
+  }
+
+  .button_challange {
+    font-size: 13px;
+  }
+
+  .completeInfo {
+    margin-right: 5px;
+    font-size: 12px;
+    line-height: 11px;
+  }
+
+  @keyframes dartAnimation {
+    0% {
+      right: -300px;
+      top: -80px;
+    }
+
+    100% {
+      right:-3px;
+      top: 6px;
+    }
+  }
+  
+}

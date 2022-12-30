@@ -1,0 +1,73 @@
+.buttons {
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+}
+
+.button {
+  border-radius: 50%;
+  height: 52px;
+  width: 52px;
+  background-color: var(--color-button);
+  border: none;
+  box-shadow: 0 0px 5px 0px var(--color-button);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover{
+  cursor: pointer;
+}
+
+.buttonChallenge {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-details);
+  box-shadow: 0 0px 5px 0px var(--color-details);
+}
+
+.buttonChallenge:hover{
+  cursor: pointer;
+}
+
+.buttonQuest {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  border: none;
+  background-color: #242a37;
+  box-shadow: 0 0px 5px 0px #242a37;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonQuest:hover{
+  cursor: pointer;
+}
+
+.quest_icon {
+  width: 30px;
+  height: 30px;
+}
+
+.plus_icon {
+  width: 15.2px;
+  height: 15.2px;
+}
+
+@media screen and (min-width: 768px) {
+  .buttons {
+    bottom: 42px;
+    right: 33px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .buttons {
+    bottom: 40px;
+    right: 46px;
+  }
+}

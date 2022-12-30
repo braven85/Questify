@@ -1,0 +1,166 @@
+.card_bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 33px;
+}
+
+.card_stuff {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #282828;
+  padding: 0;
+  padding-left: 21px;
+  width: 120px;
+  height: 35px;
+  border-radius: 0px 15px 15px 0px;
+  background: #b9c3c8;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+.card_family {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #282828;
+  padding: 0;
+  padding-left: 21px;
+  width: 120px;
+  height: 35px;
+  border-radius: 0px 15px 15px 0px;
+  background: #ffe6d3;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+.card_health {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #282828;
+  padding: 0;
+  padding-left: 21px;
+  width: 120px;
+  height: 35px;
+  border-radius: 0px 15px 15px 0px;
+  background: #cdf7ff;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+.card_learning {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #282828;
+  padding: 0;
+  padding-left: 21px;
+  width: 120px;
+  height: 35px;
+  border-radius: 0px 15px 15px 0px;
+  background: #fff6c0;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+.card_leisure {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #282828;
+  padding: 0;
+  padding-left: 21px;
+  width: 120px;
+  height: 35px;
+  border-radius: 0px 15px 15px 0px;
+  background: #f8d2ff;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+.card_work {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #282828;
+  padding: 0;
+  padding-left: 21px;
+  width: 120px;
+  height: 35px;
+  border-radius: 0px 15px 15px 0px;
+  background: #d3f6ce;
+  display: flex;
+  align-items: center;
+  border: none;
+  transition: 1s;
+}
+
+.pointer_off{
+  cursor: auto;
+}
+
+.card_activity {
+  margin: 0;
+  margin-right: 7px;
+}
+
+.arrow_icon {
+  width: 8px;
+  height: 4px;
+  fill: #00d7ff;
+}
+
+@media screen and (min-width: 768px){
+  .card_bottom {
+    bottom: 21px;
+  }
+  
+  .card_stuff {
+    font-size: 11px;
+    width: 88px;
+    height: 25px;
+  }
+  .card_family {
+    font-size: 11px;
+    width: 88px;
+    height: 25px;
+  }
+  .card_health {
+    font-size: 11px;
+    width: 88px;
+    height: 25px;
+  }
+  .card_learning {
+    font-size: 11px;
+    width: 88px;
+    height: 25px;
+  }
+  .card_leisure {
+    font-size: 11px;
+    width: 88px;
+    height: 25px;
+  }
+  .card_work {
+    font-size: 11px;
+    width: 88px;
+    height: 25px;
+  }
+  
+  .pointer_off{
+    cursor: auto;
+  }
+}

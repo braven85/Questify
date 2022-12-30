@@ -1,0 +1,24 @@
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar_icon {
+  font-weight: 900;
+}
+
+.avatar_name {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .avatar_name {
+    display: inline;
+    color: #7b8aa4;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+  }
+}

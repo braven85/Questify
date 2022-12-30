@@ -1,0 +1,17 @@
+@import url('https://fonts.cdnfonts.com/css/helveticaneuecyr-2');
+
+
+:root {
+  font-family: "HelveticaNeueCyr", sans-serif ;
+
+  --color-font1: #B9C3C8;
+  --color-font2: #282828;
+
+  --color-bg: #F2F3F7;
+  --color-details: #00D7FF;
+  --color-navbar: #242A37;
+  --color-avatar:#3E4E6C; 
+  --color-button: #FF851C;
+  --color-card: #FFFFFF;
+  --color-landingInfo: #b9c3c8;
+}

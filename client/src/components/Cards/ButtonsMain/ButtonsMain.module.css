@@ -1,0 +1,120 @@
+.card_buttons {
+  display: flex;
+  padding-right: 21px;
+  height: 16px;
+}
+
+.card_save{
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  margin-right: 7px;
+  transition: 1s;
+  align-self: center;
+}
+.card_save:hover{
+ width: 14px;
+ height: 14px;
+}
+.card_save:focus{
+ width: 14px;
+ height: 14px;
+}
+
+.save_icon{
+ width: 100%;
+ height: auto;
+ fill: #00D7FF;
+}
+
+.card_clear {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  margin-right: 7px;
+  transition: 1s;
+  align-self: center;
+}
+.card_clear:hover {
+  width: 14px;
+  height: 14px;
+}
+.card_clear:focus {
+  width: 14px;
+  height: 14px;
+}
+
+.clear_icon {
+  width: 100%;
+ height: auto;
+  fill: #db0837;
+}
+
+.card_accept {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  width: 14px;
+  height: 10px;
+  cursor: pointer;
+  transition: 1s;
+  align-self: baseline;
+}
+.card_accept:hover {
+  width: 17px;
+  height: 12px;
+}
+.card_accept:focus {
+  width: 17px;
+  height: 12px;
+}
+
+.accept_icon {
+  width: 100%;
+  height: auto;
+  fill: #24D40C;
+}
+
+
+.card_wall {
+  height: 16px;
+  width: 1px;
+  border: none;
+  background-color: #b9c3c8;
+  margin-bottom: 1px;
+  margin-right: 7px;
+}
+
+.card_create {
+  padding: 0;
+  color: #00d7ff;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .card_save{
+   width: 10px;
+   height: 10px;
+   align-self:flex-start;
+  }
+  
+  .card_clear {
+    width: 10px;
+    height: 10px;
+    align-self:flex-start;
+  }
+
+  .card_accept{
+    align-self:flex-start;
+  }
+}
