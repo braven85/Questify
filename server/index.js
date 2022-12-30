@@ -18,6 +18,8 @@ app.use(
   })
 );
 
+app.use(`${__dirname}/public/css`, express.static(`${__dirname}/public/css`));
+
 const swaggerOptions = {
   definition: {
     openapi: "3.0.0",
@@ -32,11 +34,17 @@ const swaggerOptions = {
       },
     ],
   },
-  apis: ["./docs/swaggerDocs.yml"],
+  apis: [`${__dirname}/docs/swaggerDocs.yml`],
 };
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+app.use(
+  "/api-docs",
+  swaggerUi.serve,
+  swaggerUi.setup(swaggerDocs, {
+    customCssUrl: `${__dirname}/public/css/swagger-ui.css`,
+  })
+);
 
 require("./config/passport");
 
